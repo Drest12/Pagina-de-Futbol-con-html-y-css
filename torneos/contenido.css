@@ -1,0 +1,339 @@
+/* Google Fonts Link */
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+
+* {
+	padding: 0;
+	margin: 0;
+
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+	color: #fff;
+}
+
+.nav-logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo-img {
+	width: 50px;
+	height: auto;
+}
+
+
+:root {
+	--white-color: #fff;
+	--primary-color: #15295f;
+	--light-pink-color: #15295f;
+	--medium-gray-color: #ccc;
+	--font-size-s: 0.9rem;
+	--font-size-n: 1rem;
+	--font-size-m: 1.12rem;
+	--font-size-l: 1.5rem;
+	--font-size-xl: 2rem;
+	--font-size-xxl: 2.3rem;
+	--font-weight-normal: 400;
+	--font-weight-medium: 500;
+	--font-weight-semibold: 600;
+	--font-weight-bold: 700;
+	--border-radius-s: 8px;
+	--border-radius-m: 30px;
+	--border-radius-circle: 50%;
+	--site-max-width: 1300px;
+}
+
+html {
+	scroll-behavior: smooth;
+	
+}
+
+.hero-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 45rem;
+	background-size: cover;
+	background-position: center;
+	background-image: linear-gradient(100deg, #000000, #00000020), url('/img/copaamerica.jpg');
+	color: white;
+
+	padding: 20px;
+}
+
+
+.hero-section .hero-details .button {
+	padding: 10px 26px;
+	display: block;
+	border: 2px solid transparent;
+	border-radius: var(--border-radius-m);
+
+
+	transition: 0.3s ease;
+}
+
+.hero-section .hero-details {
+	color: var(--white-color);
+}
+
+.hero-section .hero-details .title {
+	font-size: var(--font-size-xxl);
+	color: var(--secondary-color);
+	font-family: "Miniver", sans-serif;
+}
+
+.hero-section .hero-details .subtitle {
+	margin-top: 8px;
+	max-width: 70%;
+	font-size: var(--font-size-xl);
+	font-weight: var(--font-weight-semibold);
+}
+
+.hero-section .hero-details .description {
+	max-width: 70%;
+	margin: 24px 0 40px;
+	font-size: var(--font-size-m);
+}
+
+.hero-section .hero-details .buttons {
+	display: flex;
+	gap: 23px;
+}
+
+
+.hero-section .hero-details .button:hover,
+.hero-section .hero-details .button.contact-us {
+	color: var(--white-color);
+	border-color: var(--white-color);
+	background: transparent;
+}
+
+
+@media (max-width: 768px) {
+	.hero-details {
+		margin-top: 135px;
+		padding-top: 10px;
+	}
+}
+
+@media (max-width: 480px) {
+
+	.title {
+		font-size: 2rem;
+		margin-top: 100px;
+	}
+
+	.subtitle {
+		font-size: 1.1rem;
+	}
+
+	.description {
+		font-size: 0.9rem;
+	}
+
+}
+
+@media (max-width: 768px) {
+	html {
+		font-size: 55%;
+	}
+
+	.hero {
+		padding: 2rem;
+	}
+
+	.customer-support {
+		display: none;
+	}
+
+	.content-shopping-cart {
+		display: none;
+	}
+
+}
+
+/*CONTENIDO 2*/
+.about-section {
+    padding: 20px;
+    background-color: #15295f;
+}
+
+.section-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-image-wrapper {
+    flex: 1 1 40%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-image {
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover; /* Mantiene la proporción en el círculo */
+}
+
+.about-details {
+    flex: 1 1 50%;
+    padding: 0 20px;
+}
+
+.section-title {
+    font-size: 2rem; /* Tamaño del título */
+    margin-bottom: 10px; /* Ajuste el espacio entre el título y el subtítulo */
+}
+
+.text {
+    font-size: 1rem; /* Tamaño del texto */
+    line-height: 1.6; /* Espaciado entre líneas del subtítulo */
+}
+
+.heading-1 {
+    text-align: center;
+}
+
+/* Responsivo para pantallas pequeñas */
+@media (max-width: 1024px) {
+    .section-title {
+        font-size: 1.75rem;
+    }
+
+    .text {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-image-wrapper, .about-details {
+        flex: 1 1 100%;
+        text-align: center;
+    }
+    
+    .about-details {
+        padding: 0;
+    }
+
+    .about-image {
+        max-width: 30%; /* Reduce el tamaño de la imagen */
+    }
+
+    .section-title {
+        font-size: 1.5rem; /* Ajuste de fuente más pequeño */
+    }
+    
+    .text {
+        font-size: 0.85rem; /* Texto más pequeño */
+    }
+}
+
+@media (max-width: 480px) {
+    .about-image {
+        max-width: 10%; /* Aún más pequeña en pantallas móviles */
+    }
+
+    .section-title {
+        font-size: 1.25rem; /* Fuente más pequeña */
+    }
+
+    .text {
+        font-size: 0.8rem; /* Texto más pequeño para pantallas pequeñas */
+    }
+}
+/* Ajusta el tamaño del contenedor */
+.container-blogs {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 3rem;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+/* Establece el mismo tamaño para las imágenes */
+.card-blog .container-img {
+	width: 100%;
+	height: 250px; /* Puedes ajustar la altura según sea necesario */
+	border-radius: 2rem;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+
+.card-blog .container-img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover; /* Mantiene las proporciones sin distorsionar */
+	border-radius: 2rem;
+}
+
+/* El resto del estilo permanece igual */
+.button-group-blog {
+	position: absolute;
+	bottom: 1.5rem;
+	right: -2.5rem;
+	display: flex;
+	gap: 0.7rem;
+	z-index: -1;
+	transition: all 0.3s ease;
+}
+
+.card-blog:hover .button-group-blog {
+	z-index: 0;
+	right: 1.5rem;
+}
+
+.button-group-blog span {
+	background-color: #fff;
+	padding: 1rem;
+	border-radius: 50%;
+	transition: all 0.4s ease;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.button-group-blog span i {
+	font-size: 1.3rem;
+}
+
+.button-group-blog span:hover {
+	background-color: var(--primary-color);
+}
+
+.button-group-blog span:hover i {
+	color: #fff;
+}
+
+.content-blog h3 {
+	font-size: 1.8rem;
+	margin-bottom: 1.7rem;
+	color: var(--dark-color);
+	font-weight: 500;
+}
+
+.content-blog h3:hover {
+	color: var(--primary-color);
+	cursor: pointer;
+}
+
+.content-blog p {
+	font-size: 0.9rem;
+	line-height: 1.4;
+	margin: 10px 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
+	color: #777;
+}
+
+.content-blog span {
+	color: var(--primary-color);
+	font-size: 1.3rem;
+}
