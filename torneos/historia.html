@@ -15,6 +15,19 @@
             height: 200px;
             background: #aaa;
         }
+
+        .small-flag {
+            width: 40px;
+            height: 20px;
+            text-align: center;
+        }
+
+        .img-historia {
+            width: 360px;
+            height: 200px;
+            text-align: center;
+            display: block;
+        }
     </style>
 
     <link rel="stylesheet" href="navbar.css">
@@ -33,10 +46,10 @@
                 <button id="menu-close-button" class="fas fa-times"></button>
 
                 <li class="nav-item">
-                    <a href="#" class="nav-link">INICIO</a>
+                    <a href="america.html" class="nav-link">INICIO</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#about" class="nav-link">HISTORIA</a>
+                    <a href="historia.html" class="nav-link">HISTORIA</a>
                 </li>
                 <li class="nav-item">
                     <a href="#menu" class="nav-link">SELECCIONES</a>
@@ -45,147 +58,446 @@
                     <a href="#testimonials" class="nav-link">PALMARES</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#gallery" class="nav-link">ESTADISTICAS</a>
+                    <a href="estdisticas.html" class="nav-link">ESTADISTICAS</a>
                 </li>
-
             </ul>
 
             <button id="menu-open-button" class="fas fa-bars"></button>
         </nav>
     </header>
-    <div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <h2>About Me</h2>
-                    <h5>Photo of me:</h5>
-                    <div class="fakeimg">Fake Image</div>
-                    <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-                    <h3>Some Links</h3>
-                    <p>Lorem ipsum dolor sit ame.</p>
-                    <ul class="nav nav-pills flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">Active</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#hola">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#xd">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Disabled</a>
-                        </li>
-                    </ul>
-                    <hr class="d-sm-none">
-                </div>
-                <div class="col-sm-8">
-                    <br>
-                    <h4>HISTORIA</h4>
-                    <hr>
-                    <h5>Antecedentes</h5>
-                    <p>En las últimas décadas del siglo XIX y las primeras del XX, el fútbol era un deporte en pleno
-                        auge
-                        tras su llegada a Sudamérica por parte de los inmigrantes y comerciantes de origen británico. El
-                        primer partido de fútbol registrado en América del Sur fue jugado entre obreros británicos en el
-                        campo del Buenos Aires Cricket Club, ubicado en los bosques de Palermo (Argentina), el 20 de
-                        junio
-                        de 1867.5
 
-                        El primer torneo internacional celebrado entre selecciones de dicho subcontinente ocurrió en
-                        1910,
-                        cuando Argentina organizó un evento para conmemorar el centenario de la Revolución de Mayo, al
-                        que
-                        invitó a los seleccionados de Chile y Uruguay.​ El 15 de octubre de 1913 se propuso jugar un
-                        torneo
-                        sudamericano y poner en juego un trofeo denominado Copa América.</p>
-                    <br>
-                    <h5>Comienzos</h5>
-                    <div class="row">
-                        <div class="col-md-8"> <!-- Primera columna -->
-                            <p>Para la celebración del centenario de su independencia, Argentina celebró un torneo entre
-                                el
-                                2 y el 17 de julio de 1916, al que asistieron los invitados a la copa de 1910 junto con
-                                Brasil, consagrándose Uruguay como campeón del torneo. Este "Campeonato Sudamericano de
-                                Selecciones" fue la primera edición de lo que actualmente se conoce como Copa América.
-                            </p>
-                            <p>Luego de que Uruguay saliese campeón, uno de sus dirigentes, Héctor Rivadavia Gómez, al
-                                ver
-                                el éxito del torneo, propuso la fundación de una confederación que agrupara a las
-                                federaciones de los cuatro países presentes.</p>
-                        </div>
-                        <div class="col-md-4"> <!-- Segunda columna -->
-                            <div class="card">
-                                <img src="imgtorneos/historia1.jpg" class="card-img-top"
-                                    alt="Imagen del Plantel de Uruguay">
-                                <div class="card-body">
-                                    <h5 class="card-title text-center">Plantel del Uruguay campeón de la primera edición
-                                    </h5>
-                                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <br>
+                <table class="infobox table-responsive" style="line-height: 1.4em; text-align:left; padding:.23em;">
+                    <tbody>
+                        <tr>
+                            <th colspan="3" class="cabecera fútbol text-center"
+                                style="background-color:#CDC;color: black; font-size:1.5em; padding:20px 40px;">
+                                Copa América
+                            </th>
+                        </tr>
+                        <tr>
+                            <td colspan="3" class="text-center">
+                                <img src="imgtorneos/americalogo2.jpg" class="img-fluid" alt="Copa América de Fútbol">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th colspan="3" class="text-center" style="background-color:#CDC;color:black;">Datos
+                                generales</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">Deporte</th>
+                            <td colspan="2">Fútbol</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" style="text-align:left;">Nombre oficial</th>
+                            <td colspan="2">
+                                Conmebol Copa América</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" style="text-align:left;">Lema</th>
+                            <td colspan="2">
+                                <i>El torneo continental más antiguo del mundo</i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" style="text-align:left;">Organizador</th>
+                            <td colspan="2">
+                                <i title="Conmebol">Conmebol</i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" style="text-align:left;">Equipos participantes</th>
+                            <td colspan="2">
+                                10</td>
+                        </tr>
+                        <tr>
+                            <th colspan="3" style="text-align:center;background-color:#CDC;color:black;">Datos
+                                históricos</th>
+                        </tr>
+                        <tr>
+                            <th scope="row" style="text-align:left;">Fundación</th>
+                            <td colspan="2">
+                                2 de julio de 1916 (108&nbsp;años)</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row" style="text-align:left;">Primera temporada</th>
+                            <td colspan="2">
+                                <img alt="Bandera de Argentina"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/200px-Flag_of_Argentina.svg.png"
+                                    class="small-flag">
+                                <br>
+                                <a title="Campeonato Sudamericano 1916">Argentina 1916</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row" style="text-align:left;">Primer campeón</th>
+                            <td colspan="2">
+                                <img alt="Bandera de Uruguay" class="small-flag"
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1hwgYZrcGfwOFmeccHZkhyZw25_yJKldKJ8pQJOc0XnCCHXTom8QSKiwjMNI&s=10">
+                                <br><a title="Selección de fútbol del Uruguay">Uruguay</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th colspan="3" style="text-align:center;background-color:#CDC;color:black;">Datos
+                                estadísticos</th>
+                        </tr>
+
+                        <tr>
+                            <th scope="row" style="text-align:left;">Campeón actual</th>
+                            <td colspan="2">
+                                <img alt="Bandera de Argentina"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/200px-Flag_of_Argentina.svg.png"
+                                    class="small-flag">
+                                <br><a title="Selección de fútbol de la Argentina">Argentina</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" style="text-align:left;">Campeón actual</th>
+                            <td colspan="2">
+                                <img alt="Bandera de Argentina"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colombia.svg"
+                                    class="small-flag">
+                                <br><a>Colombia</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row" style="text-align:left;">Más campeonatos</th>
+                            <td colspan="2">
+                                <img alt="Bandera de Argentina"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/200px-Flag_of_Argentina.svg.png"
+                                    class="small-flag">
+                                <br><a title="Selección de fútbol de la Argentina">Argentina</a>(16)
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" style="text-align:left;">Más participaciones</th>
+                            <td colspan="2">
+                                <img alt="Bandera de Uruguay" class="small-flag"
+                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1hwgYZrcGfwOFmeccHZkhyZw25_yJKldKJ8pQJOc0XnCCHXTom8QSKiwjMNI&s=10">
+                                <br><a title="Selección de fútbol del Uruguay">Uruguay</a>(45)
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" style="text-align:left;">Mas Finales</th>
+                            <td colspan="2">
+                                <img alt="Bandera de Argentina"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/200px-Flag_of_Argentina.svg.png"
+                                    class="small-flag">
+                                <br><a title="Selección de fútbol de la Argentina">Argentina</a>(30) <br><br>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-sm-12 col-md-8">
+                <br>
+                <h4>HISTORIA</h4>
+                <hr>
+                <h5>Antecedentes</h5>
+                <p>En las últimas décadas del siglo XIX y las primeras del XX, el fútbol era un deporte en pleno
+                    auge
+                    tras su llegada a Sudamérica por parte de los inmigrantes y comerciantes de origen británico. El
+                    primer partido de fútbol registrado en América del Sur fue jugado entre obreros británicos en el
+                    campo del Buenos Aires Cricket Club, ubicado en los bosques de Palermo (Argentina), el 20 de
+                    junio
+                    de 1867.5
+
+                    El primer torneo internacional celebrado entre selecciones de dicho subcontinente ocurrió en
+                    1910,
+                    cuando Argentina organizó un evento para conmemorar el centenario de la Revolución de Mayo, al
+                    que
+                    invitó a los seleccionados de Chile y Uruguay.​ El 15 de octubre de 1913 se propuso jugar un
+                    torneo
+                    sudamericano y poner en juego un trofeo denominado Copa América.</p>
+                <br>
+                <h5>Comienzos</h5>
+                <div class="row">
+                    <div class="col-md-8"> <!-- Primera columna -->
+                        <p>Para la celebración del centenario de su independencia, Argentina celebró un torneo entre
+                            el
+                            2 y el 17 de julio de 1916, al que asistieron los invitados a la copa de 1910 junto con
+                            Brasil, consagrándose Uruguay como campeón del torneo. Este "Campeonato Sudamericano de
+                            Selecciones" fue la primera edición de lo que actualmente se conoce como Copa América.
+                        </p>
+                        <p>Luego de que Uruguay saliese campeón, uno de sus dirigentes, Héctor Rivadavia Gómez, al
+                            ver
+                            el éxito del torneo, propuso la fundación de una confederación que agrupara a las
+                            federaciones de los cuatro países presentes.</p>
+                    </div>
+                    <div class="col-md-4"> <!-- Segunda columna -->
+                        <div class="card">
+                            <img src="imgtorneos/historia1.jpg" class="card-img-top"
+                                alt="Imagen del Plantel de Uruguay">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Plantel del Uruguay campeón de la primera edición
+                                </h5>
                             </div>
                         </div>
-
-                    </div>
-                    <p>El 9 de julio de 1916, dirigentes de Argentina, Brasil, Chile y Uruguay se reunieron en Buenos
-                        Aires
-                        para estudiar la idea integradora de Héctor Rivadavia Gómez, la cual fue aprobada ad-referéndum
-                        de
-                        las respectivas asociaciones nacionales. Finalmente, el 15 de diciembre de ese mismo año, en
-                        Montevideo, se celebró el Congreso Constitucional, en el que se ratificó todo lo actuado, dando
-                        nacimiento a la Confederación Sudamericana de Fútbol (Conmebol o CSF).</p>
-                    <p>Ya fundada la Conmebol, al año siguiente se organizó nuevamente el Campeonato Sudamericano, esta
-                        vez
-                        en Uruguay. Para ello, la confederación compró un trofeo para entregar al campeón: una copa de
-                        plata
-                        con base de madera, adquirida en una joyería de origen francés en Buenos Aires con un costo de
-                        3000
-                        francos suizos de la época.</p>
-                    <p>El selecto grupo de cuatro participantes se abrió en 1921, cuando fue admitida la selección del
-                        Paraguay, evento en el que Argentina alcanzó su primer título. En los años posteriores, Uruguay
-                        fue dominador del evento aprovechando el equipo que los consagró como campeones olímpicos, que a
-                        esa fecha era el mayor torneo de balompié a nivel mundial. Argentina, sin embargo, no se quedó
-                        atrás y disputó la supremacía ante los charrúas, al ganar los Campeonatos Sudamericanos de 1925
-                        y de 1927.</p>
-                    <p>Las ediciones de 1923 y 1924 se realizaron en Uruguay, siendo la primera vez en la historia que
-                        un mismo país organizó el torneo de manera consecutiva. La edición de 1923 sirvió para
-                        clasificar a los Juegos Olímpicos de París 1924 —solo clasificó el campeón, que resultó ser
-                        Uruguay y que también fue el campeón olímpico—. Fue la primera vez que el torneo sirvió para
-                        clasificar a los Juegos Olímpicos.</p>
-
-                    <h2>TITLE HEADING</h2>
-                    <h5>Title description, Sep 2, 2017</h5>
-                    <div class="fakeimg" id="xd">Fake Image</div>
-                    <p>Some text..</p>
-                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud
-                        exercitation ullamco.</p>
-
-                    <div class="row">
-                        <div class="col-md-6"> <!-- Primera columna -->
-                            <h5>Title description, Sep 2, 2017</h5>
-                            <div class="fakeimg" id="xd">Fake Image</div>
-                            <p>Some text..</p>
-                            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing
-                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco.</p>
-                        </div>
-                        <div class="col-md-6"> <!-- Segunda columna -->
-                            <h5>Title description, Sep 2, 2017</h5>
-                            <div class="fakeimg" id="xd">Fake Image</div>
-                            <p>Some text..</p>
-                            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing
-                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                minim veniam, quis nostrud exercitation ullamco.</p>
-                        </div>
-
                     </div>
 
                 </div>
+                <p>El 9 de julio de 1916, dirigentes de Argentina, Brasil, Chile y Uruguay se reunieron en Buenos
+                    Aires
+                    para estudiar la idea integradora de Héctor Rivadavia Gómez, la cual fue aprobada ad-referéndum
+                    de
+                    las respectivas asociaciones nacionales. Finalmente, el 15 de diciembre de ese mismo año, en
+                    Montevideo, se celebró el Congreso Constitucional, en el que se ratificó todo lo actuado, dando
+                    nacimiento a la Confederación Sudamericana de Fútbol (Conmebol o CSF).</p>
+                <p>Ya fundada la Conmebol, al año siguiente se organizó nuevamente el Campeonato Sudamericano, esta
+                    vez
+                    en Uruguay. Para ello, la confederación compró un trofeo para entregar al campeón: una copa de
+                    plata
+                    con base de madera, adquirida en una joyería de origen francés en Buenos Aires con un costo de
+                    3000
+                    francos suizos de la época.</p>
+                <p>Las ediciones de 1923 y 1924 se realizaron en Uruguay, siendo la primera vez en la historia que
+                    un mismo país organizó el torneo de manera consecutiva. La edición de 1923 sirvió para
+                    clasificar a los Juegos Olímpicos de París 1924 solo clasificó el campeón, que resultó ser
+                    Uruguay y que también fue el campeón olímpico. Fue la primera vez que el torneo sirvió para
+                    clasificar a los Juegos Olímpicos.</p>
+
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-8"> <!-- Primera columna -->
+                <p>En 1925, por diferentes razones, solo participaron tres selecciones, Argentina, Brasil y
+                    Paraguay, resultando la edición con menos participantes en la historia del torneo. Lo
+                    curioso fue que a pesar de aplicarse el sistema de todos contra todos, las tres
+                    selecciones que jugaron dicha edición tuvieron que enfrentarse dos veces entre sí. </p>
+                <p>En la edición 1926, el seleccionado de Bolivia hizo su debut en el torneo. Y en la
+                    edición 1927, el seleccionado de Perú hizo su debut en el torneo, curiosamente como
+                    anfitrión de este.</p>
+                <p>El selecto grupo de cuatro participantes se abrió en 1921, cuando fue admitida la selección
+                    del
+                    Paraguay, evento en el que Argentina alcanzó su primer título. En los años posteriores,
+                    Uruguay
+                    fue dominador del evento aprovechando el equipo que los consagró como campeones olímpicos,
+                    que a
+                    esa fecha era el mayor torneo de balompié a nivel mundial. Argentina, sin embargo, no se
+                    quedó
+                    atrás y disputó la supremacía ante los charrúas, al ganar los Campeonatos Sudamericanos de
+                    1925
+                    y de 1927.</p>
+            </div>
+            <div class="col-md-4"> <!-- Segunda columna -->
+                <div class="card">
+                    <img src="imgtorneos/histori2.jpg" class="card-img-top" alt="Imagen del Plantel de Uruguay">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Equipo de Argentina campeón en 1925.
+                        </h5>
+                    </div>
+                </div>
+            </div>
 
+        </div>
+        <p>La edición 1927 sirvió para clasificar por segunda vez a los Juegos Olímpicos de
+            Ámsterdam 1928 solo clasificaron el campeón (que resultó ser Argentina) y el subcampeón
+            (que resultó ser Uruguay). Coincidentemente, ambos equipos se enfrentaron en la final
+            de los Juegos Olímpicos, y al final Uruguay se consagró bicampeón olímpico.</p>
+
+        <h5>Décadas de 1930 y de 1940. Desorganización e intermitencia</h5>
+        <div class="row">
+            <div class="col-md-8"> <!-- Primera columna -->
+                <p>En 1935 fue la última vez que el torneo sirvió para clasificar a los Juegos Olímpicos. En
+                    la edición 1937 realizada en Argentina, se empezó a jugar a finales de 1936, por lo que
+                    es la única edición que se realizó entre dos años seguidos (1936 y 1937).</p>
+                <p>Perú organizó por tercera vez el torneo en 1939, cuando logró su primer campeonato
+                    derrotando en la final a Uruguay. Entonces hizo su debut la selección de Ecuador. En la
+                    edición 1945 realizada en Chile, también se puso en juego la Copa Mariscal Sucre,
+                    jugada entre Bolivia, Colombia y Ecuador, que terminó siendo obtenida por Colombia. Esta
+                    fue la única vez en que otra copa estuvo en juego dentro del torneo.</p>
+                <p>A partir de esos años, el evento comenzó a entrar en una etapa de gran desorganización. El
+                    campeonato se jugó sin intervalos fijos de tiempo y muchos eventos fueron no oficiales,
+                    aunque
+                    actualmente son considerados válidos por la Conmebol. Por ejemplo, Argentina fue el primer y
+                    único tricampeón hasta la fecha al ganar los torneos de 1945, 1946 y 1947 consecutivamente.
+                </p>
+
+            </div>
+            <div class="col-md-4"> <!-- Segunda columna -->
+                <div class="card">
+                    <img src="imgtorneos/historia3.jpg" class="card-img-top" alt="Imagen del Plantel de Uruguay">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Plantel de Bolivia campeón de la edición 1963.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <h5>Décadas de 1970 y de 1980. Cambio de nombre</h5>
+        <div class="row">
+            <div class="col-md-8"> <!-- Primera columna -->
+                <p>Tras ocho años de interrupción, el torneo fue retomado en 1975, cuando adquirió oficialmente
+                    el nombre de Copa América. El antiguo sistema de todos contra todos utilizado previamente
+                    fue reemplazado por un sistema de tres grupos cuyos tres ganadores más el campeón vigente se
+                    enfrentaban en un sistema de eliminación directa hasta determinar el nuevo campeón. Este
+                    sistema, en el que además no se utilizó una sede fija al realizar partidos de ida y vuelta,
+                    se realizó cada cuatro años hasta 1987. La mayor incidencia de esta decisión fue que, por
+                    primera vez, participaron los diez equipos afiliados en la Conmebol. El sistema sin sede
+                    fija se utilizó únicamente en las ediciones de 1975, 1979 y 1983. En estas tres ediciones
+                    tampoco se disputó el tercer lugar, que fue compartido por las dos selecciones eliminadas en
+                    las semifinales. Las semifinales se definieron por puntos en partidos de ida y vuelta, y en
+                    el caso de que dos equipos terminaran igualados en puntos se utilizaría la diferencia de
+                    goles.</p>
+
+
+            </div>
+            <div class="col-md-4"> <!-- Segunda columna -->
+                <div class="card">
+                    <img src="imgtorneos/historia4.jpg" class="card-img-top img-fluid img-historia"
+                        alt="Imagen del Plantel de Uruguay">
+                    <div class="card-body">
+                        <p class="card-text text-center">Partido entre Argentina y Brasil por el Grupo A de la Copa
+                            América 1975 jugado en el Gigante de Arroyito y que concluyó con victoria brasileña por 1-0.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <h5>Décadas de 1990 y de 2000. La renovación del torneo</h5><br>
+        <div class="row">
+            <div class="col-md-3"> <!-- Segunda columna -->
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Jos%C3%A9_Perdomo.jpg"
+                        class="card-img-top img-fluid img-historia" alt="Imagen del Plantel de Uruguay">
+                    <div class="card-body">
+                        <p class="card-text text-center">José Perdomo levantando el trofeo de la Copa América ganado por
+                            Uruguay en 1987.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="col-md-8"> <!-- Primera columna -->
+                <p>En 1986, la Conmebol decidió renovar el torneo y para ello, restableció el formato de sedes fijas. A
+                    partir de la Copa América 1987, el evento sería albergado rotativamente cada dos años, por los diez
+                    miembros de la confederación. El formato se mantendría constantemente, con una primera ronda de
+                    grupos, pero la ronda final variaría entre una nueva fase grupal o un sistema de eliminación
+                    directa, hasta obtener al campeón; y también en las fases de eliminación directa se utilizaría el
+                    tiempo suplementario en caso de terminar igualados durante el tiempo reglamentario, y de persistir
+                    el empate la llave se definiría desde la ronda de penales. La renovada Copa América permitiría un
+                    auge para el torneo, que comenzó a ser transmitido a Europa y América del Norte.
+                </p>
+                <p>En las ediciones de 1989 y 1991, el torneo cambiaría su formato, el cual consistía en 2 grupos de 5
+                    equipos donde los 2 primeros de cada grupo se clasificaban a un cuadrangular final y se enfrentaban
+                    en una liguilla. El campeón sería la selección que más puntos obtuviese en el cuadrangular final. La
+                    edición de 1991 fue la última edición en la que se otorgaban 2 puntos por partidos ganados, 1 punto
+                    por partidos empatados y 0 puntos por partidos perdidos.</p>
+
+
+            </div>
+        </div>
+        <p>En la Copa América 1993, disputada en Ecuador, el torneo adoptaría su formato actual. Junto a los diez
+            equipos habituales, la Conmebol invitó a dos países de la CONCACAF. De estos doce participantes, se crearon
+            tres grupos de cuatro equipos, donde pasaban a la segunda ronda los dos mejores de cada grupo y los dos
+            mejores equipos clasificados en el tercer lugar de su grupo. A partir de la segunda ronda, un sistema de
+            play-offs determinó, finalmente, al equipo ganador del campeonato. Desde la edición de 1993, se otorgan 3
+            puntos por partidos ganados, 1 punto por partidos empatados y 0 puntos por partidos perdidos. En esta
+            edición, las selecciones de México y Estados Unidos harían su debut en el torneo.</p>
+
+        <p>Al implantarse el sistema de rotación, Paraguay, Colombia y Venezuela pudieron por primera vez ser sedes del
+            torneo. Además, Brasil inició una exitosa serie de triunfos: obtuvo cuatro de los cinco títulos
+            continentales entre 1997 y 2007.</p>
+        <p>Durante la Copa América 1997 realizada en Bolivia, ocurriría un hecho anecdótico que haría que el equipo
+            subcampeón también reciba un trofeo, luego de que Bolivia (anfitrión) perdiera la final contra Brasil por 3
+            a 1. El hecho hizo que desde esa edición en adelante, el subcampeón recibiera como premio consuelo la Copa
+            Bolivia, premio que se le entrega aparte de las medallas de plata.8​ En esta edición haría su debut la
+            selección de Costa Rica en el torneo.</p>
+        <p> La Copa América 1999 realizada en Paraguay, sería la última Copa América del siglo XX y en esa edición
+            participaría Japón, la primera selección no americana en participar en el torneo. Japón fue invitado a
+            participar debido a que se cumplían 100 años de la inmigración japonesa a América.</p>
+
+
+        <div class="row">
+            <div class="col-md-9"> <!-- Primera columna -->
+                <p>La Copa América 2001 realizada en Colombia (la primera del siglo XXI), tuvo varios inconvenientes
+                    para su realización, por problemas de inestabilidad política​ e inseguridad ​ especialmente con el
+                    grupo armado de las FARC. Debido a estos sucesos, se pensó en quitarle la sede a Colombia. Sin
+                    embargo, la edición se jugó en este país. El torneo se organizó con estrictas medidas de seguridad
+                    para cada selección participante. Dicha edición es la que contó con tres equipos invitados, debido a
+                    que Argentina se retiró del torneo alegando amenazas de muerte (su lugar fue reemplazado por
+                    Honduras quien fue invitada de emergencia). También fue invitada a participar la selección de
+                    Canadá, que rechazó la invitación por los mismos motivos que Argentina.Su lugar fue ocupado
+                    por la selección de Costa Rica.</p>
+                <p>Tras la Copa América 2007 realizada en Venezuela, se acabó el ciclo de rotación establecido por la
+                    Conmebol en 1986. Chile, Estados Unidos y México manifestaron interés en organizar el torneo
+                    siguiente,14​ pero el Comité Ejecutivo de la Conmebol decidió continuar con el otorgamiento de la
+                    prioridad de la organización de cada Copa a través de la repetición del ciclo de sedes iniciado en
+                    1987, lo cual significa que cada asociación debe confirmar si decide organizar la Copa que le
+                    corresponde, aunque no tienen la obligación de hacerlo.15​</p>
+
+            </div>
+            <div class="col-md-3"> <!-- Segunda columna -->
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Inauguraci%C3%B3n_Copa_Am%C3%A9rica_2007.jpg/800px-Inauguraci%C3%B3n_Copa_Am%C3%A9rica_2007.jpg"
+                        class="card-img-top img-fluid img-historia" alt="Imagen del Plantel de Uruguay">
+                    <div class="card-body">
+                        <p class="card-text text-center">Ceremonia de Apertura de la Copa América 2007.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <h5>Década de 2010, desorganización y la Copa América Centenario</h5>
+        <p>Desde 2010, la Conmebol decidió que la Copa América se realizara cada 4 años para evitar coincidir con
+            eliminatorias y otros grandes eventos deportivos. Además, a partir de la edición de 2011, se introdujeron
+            premios individuales para el mejor jugador, mejor jugador juvenil, mejor arquero y el Premio Fair Play para
+            la selección más destacada en juego limpio. También, se decidió otorgar medallas de cobre al equipo que
+            obtuviera el cuarto lugar.</p>
+        <p>En la Copa América 2011, Japón fue invitado, pero se retiró debido a un terremoto, siendo reemplazado por
+            Costa Rica, tras la negativa de España, que también había sido invitada.</p>
+        <p>
+            Inicialmente, Brasil sería la sede de la Copa América 2015, pero debido a la realización de grandes eventos
+            como la Copa Confederaciones 2013, el Mundial 2014 y los Juegos Olímpicos de 2016, intercambió la
+            organización con Chile para la edición de 2019, rompiendo por primera vez el orden rotativo de sedes.</p>
+
+
+        <p>El 25 de octubre de 2012, se anunció un acuerdo entre la Conmebol y la Concacaf para celebrar la Copa América
+            Centenario en 2016, con motivo de los 100 años del torneo. Esta edición, realizada en Estados Unidos, contó
+            con la participación de 16 selecciones, incluyendo equipos de Norteamérica, Centroamérica y el Caribe.
+            Además, se otorgó un trofeo especial que el equipo campeón, en este caso Chile, conservaría de manera
+            permanente.</p>
+        <p>En 2017, la Conmebol decidió que la Copa América 2019 tendría 16 equipos, pero en mayo de 2018 se redujo el
+            número a 12. Estados Unidos y México fueron invitados pero declinaron participar para competir en la Copa de
+            Oro, por lo que Catar y Japón, finalistas de la Copa Asiática 2019, fueron invitados.</p>
+        <p>Finalmente, entre 1991 y 2015, el campeón de la Copa América clasificaba a la Copa Confederaciones. Si el
+            campeón no podía participar, el subcampeón ocupaba su lugar.</p>
     </div>
+
+    <style>
+        @media (max-width: 768px) {
+            .infobox {
+                width: 100%;
+            }
+
+            .nav-menu {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .nav-item {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
 
     <!-- Linking Swiper script -->
 
